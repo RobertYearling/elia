@@ -100,6 +100,25 @@ body {
 	border-radius: 5px;
 }
 
+.footer {
+	grid-column-start: 1;
+	grid-column-end: 6;
+	grid-row-start: 6;
+	grid-row-end: 7;
+	height: 500px;
+	background-color: black;
+	width: 100%;
+}
+
+#footercolumn li {
+	display: list-item;
+	color: white;
+}
+
+li.footertitle {
+	color: white;
+}
+
 img {
 	width: 325px;
 	height: auto;
