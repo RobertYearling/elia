@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h5 {
+  font-size: 15px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows:  40px, 1fr, 1fr, 1fr);
+}
+
+.header {
+  grid-column: span 12;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}
+
+.logo {
+  grid-column: span 12;
+  color: black;
+  padding: 5px 5px;
+  height: auto;
+}
+
+.img {
+  height: 75px;
+}
+
+.bannerimg {
+  width: 100%;
+}
+
+.menu {
+  display: none;
+}
+
+.banner {
+  grid-column: span 12;
+}
+
+.services {
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  grid-column: span 12;
+}
+
+.applications {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.project {
+  background-color: black;
+  color: white;
+  grid-column: span 12;
+  height: 80px;
+  padding: 10px 5px;
+}
+
+.info {
+  text-align: center;
+  grid-column: span 12;
+  padding: 10px;
+}
+
+.info h2 {
+  font-weight:  bold;
+}
+
+.footermobile {
+  grid-column: span 12;
+  background-color: black;
+  color: white;
+  padding: 3px 10px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.footer {
+  display: none;
+}
+
+.footerlinks {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+#number {
+  float: left;
+  padding: 10px;
+}
+
+#estbutton {
+  float: right;
+  padding: 10px;
+  background-color: red;
+}
+
+
+
