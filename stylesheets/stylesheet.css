@@ -4,43 +4,48 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
 h5 {
   font-size: 15px;
 }
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows:  40px, 1fr, 1fr, 1fr);
+  grid-template-rows:  40px, 1fr, 1fr, 1fr;
 }
 
 .header {
   grid-column: span 12;
   background-color: black;
-  color: white;
+  font-weight: bold;
   font-size: 17px;
 }
 
 .logo {
   grid-column: span 12;
+  display: block;
   color: black;
   padding: 5px 5px;
-  height: auto;
+  height: 125px;
 }
 
-.img {
-  height: 75px;
-}
-
-.bannerimg {
-  width: 100%;
-}
-
-.menu {
+.navigation {
   display: none;
 }
 
 .banner {
   grid-column: span 12;
+  background-color: Black;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  height: 40px;
 }
 
 .services {
@@ -48,6 +53,10 @@ h5 {
   font-style: bold;
   text-align: center;
   grid-column: span 12;
+}
+
+.img {
+  height: 75px;
 }
 
 .applications {
@@ -58,6 +67,7 @@ h5 {
 .project {
   background-color: black;
   color: white;
+  font-weight: bold;
   grid-column: span 12;
   height: 80px;
   padding: 10px 5px;
@@ -93,14 +103,15 @@ h5 {
 
 #number {
   float: left;
-  padding: 10px;
+  padding: 7px;
+  color: white;
 }
 
 #estbutton {
   float: right;
-  padding: 10px;
+  padding: 7px;
   background-color: red;
+  color: white;
 }
-
 
 
