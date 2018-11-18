@@ -63,6 +63,10 @@ h6 {
   text-align: left;
 }
 
+.banner {
+  background-image: url("img/Banner1.jpg");
+}
+
 .item1 {
   background-color: black;
   color: white;
