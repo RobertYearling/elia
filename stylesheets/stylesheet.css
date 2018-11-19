@@ -140,12 +140,12 @@ li {
 
   .wrapper {
     grid-template-areas:
-      'header header header header header header'
-      'logo logo logo logo logo logo'
-      'menu menu menu menu menu menu'
-      'panel panel panel panel sidebar sidebar'
-      'main main main main sidebar sidebar'
-      'footer footer footer footer footer footer';
+      'header header'
+      'logo logo'
+      'menu menu'
+      'panel sidebar '
+      'main sidebar'
+      'footer footer';
   }
 
   h5 {
@@ -161,6 +161,10 @@ li {
     background-color: black;
     color: white;
     text-align: center;
+  }
+
+  .item4 {
+    background-image: url("img/Banner1.jpg");
   }
 
   .item7{
