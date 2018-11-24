@@ -8,7 +8,7 @@
 
 .item1 { grid-area: header; }
 .item2 { grid-area: logo; }
-.item3 { grid-area: menu; }
+.item3 { grid-area: nav; }
 .item4 { grid-area: panel; }
 .item5 { grid-area: main; }
 .item6 { grid-area: sidebar; }
@@ -20,7 +20,7 @@
   grid-template-areas:
     'header header'
     'logo logo'
-    'menu menu'
+    'nav nav'
     'panel panel'
     'main main'
     'sidebar sidebar'
@@ -68,18 +68,13 @@ h6 {
   color: white;
 }
 
-.item2 {
-  color: black;
-}
 
 .item3 {
   display: none;
 }
 
 .item4 {
-  background-color: black;
-  color: white;
-  text-align: center;
+
 }
 
 .item5 {
@@ -133,7 +128,14 @@ li {
 }
 
 .logo {
+  padding: 5px;
   width: 25%
+}
+
+.navicon {
+  float: right;
+  padding: 23px;
+  width: 23%;
 }
 
 @media only screen and (min-width: 420px) {
@@ -142,7 +144,7 @@ li {
     grid-template-areas:
       'header header'
       'logo logo'
-      'menu menu'
+      'nav nav'
       'panel sidebar '
       'main sidebar'
       'footer footer';
@@ -164,7 +166,7 @@ li {
   }
 
   .item4 {
-    background-image: url("img/Banner1.jpg");
+
   }
 
   .item7{
