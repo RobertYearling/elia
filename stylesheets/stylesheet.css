@@ -74,7 +74,7 @@ h6 {
 }
 
 .item4 {
-
+  width: 100%;
 }
 
 .item5 {
@@ -98,10 +98,6 @@ li {
   font-size: 10px;
 }
 
-.img {
-  height: 100px;
-}
-
 .icons {
   height: 50px;
 }
@@ -115,9 +111,17 @@ li {
   padding: 20px;
 }
 
+#banner {
+  width: 100%
+}
+
 #phone {
   float: left;
   padding: 10px;
+}
+
+#smimg {
+  height: 100px;
 }
 
 #button {
